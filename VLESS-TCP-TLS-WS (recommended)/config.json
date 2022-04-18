@@ -18,11 +18,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "example.com", // 换成你的域名或服务器 IP（发起请求时无需解析域名了）
+                        "address": "vvv.wsii.cn", // 换成你的域名或服务器 IP（发起请求时无需解析域名了）
                         "port": 443,
                         "users": [
                             {
-                                "id": "", // 填写你的 UUID
+                                "id": "621e93a6-6547-4655-ac03-1e1b301a545f", // 填写你的 UUID
                                 "encryption": "none",
                                 "level": 0
                             }
@@ -34,10 +34,10 @@
                 "network": "ws",
                 "security": "tls",
                 "tlsSettings": {
-                    "serverName": "example.com" // 换成你的域名
+                    "serverName": "vvv.wsii.cn" // 换成你的域名
                 },
                 "wsSettings": {
-                    "path": "/websocket" // 必须换成自定义的 PATH，需要和服务端的一致
+                    "path": "/ab63de20167/" // 必须换成自定义的 PATH，需要和服务端的一致
                 }
             }
         }
